@@ -1,0 +1,52 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="style.css" rel="stylesheet" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="background">
+        <h1>A Simple <span style="color: blue">Calculator</span></h1>
+        <h2>Made by <span style="color: blue">Ulti</span> :)</h2>
+        <div class="credits">
+            <a href="https://migatte-no-ultizin.webnode.com/" target="_blank"><h3>FINISAUTEMPOTENTIAE © -- Ulti Corp. 2019 - 2022</h3></a>
+        </div>
+        <div class="calculator">
+            <h1>Calculator</h1>
+            <p id="result"></p>
+            <table>
+                <tr>
+                    <td colspan="4"><button class="cbutton" style="width: 224px;" onclick="clean()">Clear</button></td>
+                </tr>
+                <tr>
+                    <td><button class="cbutton" onclick="insert('7')">7</button></td>
+                    <td><button class="cbutton" onclick="insert('8')">8</button></td>
+                    <td><button class="cbutton" onclick="insert('9')">9</button></td>
+                    <td><button class="cbutton" onclick="insert('/')">÷</button></td>
+                </tr>
+                <tr>
+                    <td><button class="cbutton" onclick="insert('4')">4</button></td>
+                    <td><button class="cbutton" onclick="insert('5')">5</button></td>
+                    <td><button class="cbutton" onclick="insert('6')">6</button></td>
+                    <td><button class="cbutton" onclick="insert('*')">x</button></td>
+                </tr>
+                <tr>
+                    <td><button class="cbutton" onclick="insert('1')">1</button></td>
+                    <td><button class="cbutton" onclick="insert('2')">2</button></td>
+                    <td><button class="cbutton" onclick="insert('3')">3</button></td>
+                    <td><button class="cbutton" onclick="insert('-')">-</button></td>
+                </tr>
+                <tr>
+                    <td><button class="cbutton" onclick="insert('.')">.</button></td>
+                    <td><button class="cbutton" onclick="insert('0')">0</button></td>
+                    <td><button class="cbutton" onclick="calc()">=</button></td>
+                    <td><button class="cbutton" onclick="insert('+')">+</button></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

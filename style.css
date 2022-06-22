@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.background{
+    background-image: linear-gradient(45deg,blue,white);
+    height: 100vh;
+    color: white;
+    font-family: fira code;
+    text-align: center;
+}
+.credits{
+    position: absolute;
+    top: 625px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: blue;
+}
+.calculator{
+    position: absolute;
+    background-image: linear-gradient(45deg,white,blue);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20%;
+    padding: 50px;
+}
+.cbutton{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: rgb(40, 36, 136);
+    border: none;
+    color: white;
+    font-family: fira code;
+    font-weight: bold;
+}
+.cbutton:hover{
+    background-color: rgb(7, 7, 31);
+}
+#result{
+    background-color: white;
+    width: 224px;
+    height: 50px;
+    margin: 5px;
+    font-size: 25px;
+    color: blue;
+    text-align: right;
+    font-family: fira code;
+    font-weight: bold;
+}
